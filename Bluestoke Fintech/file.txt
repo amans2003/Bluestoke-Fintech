@@ -1,0 +1,17 @@
+<i class="fa-solid fa-chart-simple"></i>
+<i class="fa-solid fa-cart-shopping"></i>
+<i class="fa-solid fa-magnifying-glass"></i>
+
+
+
+<script>
+    document.getElementById("registerIPOBtn").addEventListener("click", function() {
+        window.location.href = "registerIPO.html"; // Change this to your desired page URL
+    });
+</script>
+
+
+
+<i class="fa-brands fa-facebook"></i>
+
+<i class="fa-brands fa-x-twitter"></i>

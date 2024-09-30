@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - Bluestock Fintech</title>
+    <link rel="stylesheet" href="sigin.css">
+</head>
+<body>
+    <div class="login-form">
+        <a href="/Home/Home.html" class="logo-link">
+            <img src="sigininlogo.png" alt="Bluestock Logo" class="logo-image">
+        </a>
+     
+        <form action="dashboard.html">
+            <label for="email">Email Address</label>
+            <input type="email" placeholder="johndoe@gmail.com" required>
+            <label for="Password">Password</label>
+            <input type="password" placeholder="............" required>
+            
+            <!-- CAPTCHA checkbox -->
+            <div class="captcha">
+                <input type="checkbox" id="robot-check" required>
+                <label for="robot-check">I'm not a robot</label>
+            </div>
+
+            <div class="remember-me">
+                <input type="checkbox" id="remember">
+                <label for="remember">Keep me signed in</label>
+            </div>
+            
+            <button type="submit">Login</button>
+            <div class="alternate-login">
+                <button type="button" class="google-login">Continue with Google</button>
+            </div>
+            <p><a href="/Forgotpass/forgot.html">Forgot Password?</a> | <a href="/signup/signup.html">Create an account</a></p>
+        </form>
+    </div>
+</body>
+</html>
